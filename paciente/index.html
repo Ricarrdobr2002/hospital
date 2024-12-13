@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Agape</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <nav>
+            <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" viewBox="0 0 20 20" fill="none">
+                <path fill="#000000" fill-rule="evenodd" d="M19 4a1 1 0 01-1 1H2a1 1 0 010-2h16a1 1 0 011 1zm0 6a1 1 0 01-1 1H2a1 1 0 110-2h16a1 1 0 011 1zm-1 7a1 1 0 100-2H2a1 1 0 100 2h16z"/>
+              </svg>
+
+              <div class="center">
+                <label for="inp">
+                <img src="1093183.svg" alt="" width="15px"></label>
+                <input type="text" id="inp">
+              </div>
+
+              <div>
+                <img src="" alt="fotomed">
+              </div>
+        </nav>
+        <main>
+            <div class="form-container">
+                <h2>Marcar Consulta</h2>
+        
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" name="data" required>
+        
+                    <label for="horario">Horário:</label>
+                    <select id="horario" name="horario" required>
+                        <option value="">Selecione um horário</option>
+                        <option value="09:00">09:00</option>
+                        <option value="10:00">10:00</option>
+                        <option value="11:00">11:00</option>
+                        <option value="14:00">14:00</option>
+                        <option value="15:00">15:00</option>
+                        <option value="16:00">16:00</option>
+                    </select>
+        
+                    <label for="mensagem">Mensagem (opcional):</label>
+                    <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+        
+                    <button type="submit">Marcar Consulta</button>
+                </form>
+            </div>
+        </main>
+
+
+    </body>
+</html>

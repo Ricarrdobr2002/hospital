@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* menu de navegação */
+
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 90px;
+        background: linear-gradient(45deg,rgb(119, 0, 255),rgb(0, 128, 128));
+    }
+
+    nav input{
+        width: 30vw;
+        height: 30px;
+        border-radius: 20px;
+        padding-left: 25px;
+    }
+    nav .center label{
+        margin-right: -25px;
+        z-index: 1;
+    }
+
+    /* corpo do site */
+    main h1{
+        text-align: center;
+        margin-top: 20px;
+    }
+/* tabela */
+
+
+    table tr td{
+        background: linear-gradient(to left ,rgb(0, 225, 255),blue);
+        padding-top:5px;
+    }
+
+    table tr{
+        margin-top: 10vh;
+        display: flex;
+        justify-content: space-between;
+        width: 70vw;
+        margin-right: 10vw;
+    }
+
+    /* card da tabela */
+    .card{
+        width: 10vw;
+        height: 20vh;
+        flex-direction: column;
+        display: flex;
+        padding: 10px;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+        border: solid black 1px;
+        border-top:none ;
+    }
+
+    .card button{
+        border-radius: 100%;
+        width: 20px;
+        height: 20px;
+    }
+    .card div{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    main{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    main form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 80vh;
+        background-color: #3f4e9a;
+        padding: 5px;
+        color: white;
+    }
+
+    main form button{
+        padding: 5px;
+        border-radius: 15px;
+        border: 1px;
+        background-color: blue;
+        color: white;
+        cursor: pointer;
+    }

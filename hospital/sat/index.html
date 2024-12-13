@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hospital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Pesquisa de Satisfação</h1>
+        <form>
+            <div class="form-group">
+                <label for="name">1. Nome</label>
+                <input type="text" id="name" name="name" placeholder="Primeiro nome">
+            </div>
+            <div class="form-group">
+                <input type="text" id="last-name" name="last-name" placeholder="Último nome">
+            </div>
+            <div class="form-group">
+                <label for="email">2. E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Seu e-mail">
+            </div>
+            <div class="form-group">
+                <label>3. Você está satisfeito</label>
+                <div class="rating">
+                    <input type="radio" id="star1" name="satisfaction" value="1">
+                    <label for="star1">&#9733;</label>
+                    <input type="radio" id="star2" name="satisfaction" value="2">
+                    <label for="star2">&#9733;</label>
+                    <input type="radio" id="star3" name="satisfaction" value="3">
+                    <label for="star3">&#9733;</label>
+                    <input type="radio" id="star4" name="satisfaction" value="4">
+                    <label for="star4">&#9733;</label>
+                    <input type="radio" id="star5" name="satisfaction" value="5">
+                    <label for="star5">&#9733;</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>4. Como você avaliaria nossa comunicação com você?</label>
+                <div class="scale">
+                    <label>1<input type="radio" name="communication" value="1"></label>
+                    <label>2<input type="radio" name="communication" value="2"></label>
+                    <label>3<input type="radio" name="communication" value="3"></label>
+                    <label>4<input type="radio" name="communication" value="4"></label>
+                    <label>5<input type="radio" name="communication" value="5"></label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="improvements">5. O que você gostaria de ver melhorarmos?</label>
+                <textarea id="improvements" name="improvements" placeholder="Descreva aqui..."></textarea>
+            </div>
+            <div class="form-group">
+                <label for="comments">6. Você tem sugestões e comentários?</label>
+                <textarea id="comments" name="comments" placeholder="Descreva aqui..."></textarea>
+            </div>
+            <button type="submit" style="margin-bottom: 10px;">Enviar</button>
+            <a href="../index.html" style="color: black; text-decoration: none;">Voltar</a>
+        </form>
+    </div>
+</body>
+</html>

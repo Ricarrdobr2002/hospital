@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Agape</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <nav>
+            <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" viewBox="0 0 20 20" fill="none">
+                <path fill="#000000" fill-rule="evenodd" d="M19 4a1 1 0 01-1 1H2a1 1 0 010-2h16a1 1 0 011 1zm0 6a1 1 0 01-1 1H2a1 1 0 110-2h16a1 1 0 011 1zm-1 7a1 1 0 100-2H2a1 1 0 100 2h16z"/>
+              </svg>
+
+              <div class="center">
+                <label for="inp">
+                <img src="1093183.svg" alt="" width="15px"></label>
+                <input type="text" id="inp">
+              </div>
+
+              <div>
+                <img src="" alt="fotomed">
+              </div>
+        </nav>
+        <main>
+            <form action="#" method="GET">
+
+                    <h2>Filtro</h2>
+                <!-- Filtro de Tempo -->
+                <div class="filter-group">
+                    <h3>Tempo</h3>
+                    <label><input type="radio" name="tempo" value="7_dias"> Últimos 7 dias</label><br>
+                    <label><input type="radio" name="tempo" value="30_dias"> Últimos 30 dias</label><br>
+                    <label><input type="radio" name="tempo" value="personalizado"> Período Personalizado</label>
+                </div>
+        
+                <!-- Filtro de Ordem -->
+                <div class="filter-group">
+                    <h3>Ordem</h3>
+                    <label><input type="radio" name="ordem" value="a_z"> Ordem Alfabética A-Z</label><br>
+                    <label><input type="radio" name="ordem" value="z_a"> Ordem Alfabética Z-A</label>
+                </div>
+        
+                <!-- Filtro de Especialidade -->
+                <div class="filter-group">
+                    <h3>Especialidade</h3>
+                    <label><input type="checkbox" name="especialidade" value="cardiologia"> Cardiologia</label><br>
+                    <label><input type="checkbox" name="especialidade" value="dermatologia"> Dermatologia</label><br>
+                    <label><input type="checkbox" name="especialidade" value="ginecologia"> Ginecologia</label><br>
+                    <label><input type="checkbox" name="especialidade" value="outras"> Outras Especialidades</label>
+                </div>
+        
+                <!-- Filtro de Status do Atendimento -->
+                <div class="filter-group">
+                    <h3>Status do Atendimento</h3>
+                    <label><input type="checkbox" name="status" value="em_atendimento"> Em Atendimento</label><br>
+                    <label><input type="checkbox" name="status" value="agendado"> Agendado</label><br>
+                    <label><input type="checkbox" name="status" value="concluido"> Concluído</label><br>
+                    <label><input type="checkbox" name="status" value="cancelado"> Cancelado</label>
+                </div>
+        
+                <!-- Filtro de Urgência -->
+                <div class="filter-group">
+                    <h3>Urgência</h3>
+                    <label><input type="radio" name="urgencia" value="urgente"> Urgente</label><br>
+                    <label><input type="radio" name="urgencia" value="nao_urgente"> Não Urgente</label>
+                </div>
+        
+                <!-- Filtro de Tipo de Consulta -->
+                <div class="filter-group">
+                    <h3>Tipo de Consulta</h3>
+                    <label><input type="checkbox" name="tipo_consulta" value="presencial"> Presencial</label><br>
+                    <label><input type="checkbox" name="tipo_consulta" value="telemedicina"> Telemedicina</label><br>
+                    <label><input type="checkbox" name="tipo_consulta" value="primeira_consulta"> Primeira Consulta</label><br>
+                    <label><input type="checkbox" name="tipo_consulta" value="retorno"> Retorno</label>
+                </div>
+        
+                <!-- Filtro de Médico Responsável -->
+                <div class="filter-group">
+                    <h3>Médico Responsável</h3>
+                    <label><input type="checkbox" name="medico" value="joao_silva"> Dr. João Silva</label><br>
+                    <label><input type="checkbox" name="medico" value="ana_costa"> Dr. Ana Costa</label><br>
+                    <label><input type="checkbox" name="medico" value="outros"> Outros médicos</label>
+                </div>
+        
+                <!-- Filtro de Diagnóstico -->
+                <div class="filter-group">
+                    <h3>Diagnóstico</h3>
+                    <label><input type="checkbox" name="diagnostico" value="aguardando_exame"> Aguardando Exame</label><br>
+                    <label><input type="checkbox" name="diagnostico" value="diagnostico_confirmado"> Diagnóstico Confirmado</label><br>
+                    <label><input type="checkbox" name="diagnostico" value="em_tratamento"> Em Tratamento</label><br>
+                    <label><input type="checkbox" name="diagnostico" value="outros"> Outros Diagnósticos</label>
+                </div>
+        
+                <button type="submit">Aplicar Filtros</button>
+            </form>
+            <table>
+                <tr>
+                    <td>
+                        <div class="card">
+                            <h2>lorem</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, veritatis.</p>
+                            <p>exemplo@gmail</p>
+                            <p>telefone: (82) 9999-9999</p>
+
+                            <div>
+                                <p>Detalhes</p>
+                                <button>-></button>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card">
+                            <h2>lorem</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, veritatis.</p>
+                            <p>exemplo@gmail</p>
+                            <p>telefone: (82) 9999-9999</p>
+
+                            <div>
+                                <p>Detalhes</p>
+                                <button>-></button>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card">
+                            <h2>lorem</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, veritatis.</p>
+                            <p>exemplo@gmail</p>
+                            <p>telefone: (82) 9999-9999</p>
+
+                            <div>
+                                <p>Detalhes</p>
+                                <button>-></button>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card">
+                            <h2>lorem</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, veritatis.</p>
+                            <p>exemplo@gmail</p>
+                            <p>telefone: (82) 9999-9999</p>
+
+                            <div>
+                                <p>Detalhes</p>
+                                <button>-></button>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="card">
+                            <h2>lorem</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, veritatis.</p>
+                            <p>exemplo@gmail</p>
+                            <p>telefone: (82) 9999-9999</p>
+
+                            <div>
+                                <p>Detalhes</p>
+                                <button>-></button>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card">
+                            <h2>lorem</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, veritatis.</p>
+                            <p>exemplo@gmail</p>
+                            <p>telefone: (82) 9999-9999</p>
+
+                            <div>
+                                <p>Detalhes</p>
+                                <button>-></button>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card">
+                            <h2>lorem</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, veritatis.</p>
+                            <p>exemplo@gmail</p>
+                            <p>telefone: (82) 9999-9999</p>
+
+                            <div>
+                                <p>Detalhes</p>
+                                <button>-></button>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="card">
+                            <h2>lorem</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, veritatis.</p>
+                            <p>exemplo@gmail</p>
+                            <p>telefone: (82) 9999-9999</p>
+
+                            <div>
+                                <p>Detalhes</p>
+                                <button>-></button>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            
+        </main>
+
+
+    </body>
+</html>
